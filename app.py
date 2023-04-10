@@ -26,6 +26,8 @@ def button(update, context):
     query = update.callback_query
     if query.data == "namecard":
         query.edit_message_text("이미지를 첨부해주세요!")
+        context.user_data["wait_for_image"] = True
+
     elif query.data == "service":
         query.edit_message_text("서비스 준비중입니다!")
 
@@ -39,6 +41,11 @@ def main():
     # 이미지 처리 함수
     def handle_image(update, context):
         message = update.message
+
+        if not context.user_data.get("wait_for_image", False):
+            return
+        context.user_data["wait_for_image"] = False
+
         photo = message.photo[-1].file_id
 
         photo_file = bot.getFile(photo)
@@ -52,7 +59,7 @@ def main():
         # ------------------------------------
 
         # API Set
-        subscription_key = "MS Azure API"
+        subscription_key = "MS Azure API key"
         endpoint = "MS Azure Endpoint"
 
         computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
@@ -81,7 +88,7 @@ def main():
         # ----------------------- GPT
         # ------------------------------------
 
-        openai.api_key = "ChatGPT API"
+        openai.api_key = "GPT API key"
         model = "gpt-3.5-turbo"
 
         # Message
