@@ -9,7 +9,11 @@
 <br/><br/> <img src="https://user-images.githubusercontent.com/93754504/230894753-9d557402-afbe-4a56-9539-1c5917150d97.png"/>
 
 ## 🚨 주의
-라이브러리 다운그레이드 필요
+- API Key 입력 필요
+  - MS Azure ComputerVision API & Endpoint
+  - OpenAI API
+  
+- 텔레그램 라이브러리 버전 지정 필요
 ```text
 pip install python-telegram-bot==12.8
 ```
