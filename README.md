@@ -11,6 +11,10 @@
 
 <br/><br/> <img src="https://user-images.githubusercontent.com/93754504/230894753-9d557402-afbe-4a56-9539-1c5917150d97.png"/>
 
+
+<img src="https://user-images.githubusercontent.com/93754504/233362700-9bd042be-f8c1-4681-ab3d-62ef04393a41.MP4"/>
+
+
 ### 🚨 주의
 - API Key 입력 필요
   - MS Azure ComputerVision API & Endpoint
