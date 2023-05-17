@@ -19,6 +19,7 @@
 - API Key 입력 필요
   - MS Azure ComputerVision API & Endpoint
   - OpenAI API
+  - Telebram Bot API
   
 - 텔레그램 라이브러리 버전 지정 필요
 ```text
