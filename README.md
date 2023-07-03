@@ -10,7 +10,7 @@
 - 실행: "/start" 입력 후 "명함-연락처 변환 서비스" 클릭
 - 파일: 📁 [Namecard](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard) / [main.py](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard/main.py) & [slide.pdf](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard/slide.pdf)
 
-[![img](https://github.com/riverallzero/MSAzureThon/assets/93754504/82118d61-d36b-40cf-8b06-c2e4f6c9e20c)(https://www.youtube.com/watch?v=gs5_O_hodH8)]
+[![img](https://github.com/riverallzero/MSAzureThon/assets/93754504/82118d61-d36b-40cf-8b06-c2e4f6c9e20c)](https://www.youtube.com/watch?v=gs5_O_hodH8)
 
 ### 작동 방식
 1. OCR: 이미지 인식 및 텍스트 추출
