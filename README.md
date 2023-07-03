@@ -5,20 +5,22 @@
 
 ## 명함-연락처 변환 서비스 챗봇
 
-### 설명
+### About
 - 활용:  MS Azure Computer Vision API & OpenAI ChatGPT API & Telegram Bot
 - 실행: "/start" 입력 후 "명함-연락처 변환 서비스" 클릭
 - 파일: 📁 [Namecard](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard) / [main.py](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard/main.py) & [slide.pdf](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard/slide.pdf)
+- 시연: [https://www.youtube.com/watch?v=gs5_O_hodH8](https://www.youtube.com/watch?v=gs5_O_hodH8)
 
-[![img](https://github.com/riverallzero/MSAzureThon/assets/93754504/82118d61-d36b-40cf-8b06-c2e4f6c9e20c)](https://www.youtube.com/watch?v=gs5_O_hodH8)
+![videoplayback](https://github.com/riverallzero/MSAzureThon/assets/93754504/076e5f11-a345-4dfc-817a-49a4cbcd4035)
 
-### 작동 방식
-1. OCR: 이미지 인식 및 텍스트 추출
+### Work
+- Step 1. OCR
    - Microsoft Azure: Computer Vision API 사용
-2. ChatGPT: OCR 추출된 텍스트 연락처 카테고리 분류
+   - 이미지 인식 및 텍스트 추출
+- Step 2. ChatGPT
    - OpenAI API 사용
-   - OCR에서 추출된 텍스트를 리스트로 만들어 GPT로 전화번호, 이메일, 회사명, 이름을 분류함
-3. Telegram ChatBot: 사용자에게 연락처 파일 제공
+   - OCR에서 추출된 텍스트를 리스트로 만들어 GPT로 전화번호, 이메일, 회사명, 이름을 분류
+- Step 3. Telegram ChatBot
    - Telegram API 사용
    - .vcf 파일 형태로 연락처 제공
 
