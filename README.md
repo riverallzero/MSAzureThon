@@ -8,7 +8,8 @@
 ### About
 - 활용:  MS Azure Computer Vision API & OpenAI ChatGPT API & Telegram Bot
 - 실행: "/start" 입력 후 "명함-연락처 변환 서비스" 클릭
-- 파일: 📁 [Namecard](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard) / [main.py](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard/main.py) & [slide.pdf](https://github.com/riverallzero/MSAzureThon/tree/main/Namecard/slide.pdf)
+- 코드: [main.py](https://github.com/riverallzero/MSAzureThon/blob/main/main.py)
+- 설명: [slide.pdf](https://github.com/riverallzero/MSAzureThon/blob/main/slide.pdf)
 - 시연: [https://www.youtube.com/watch?v=gs5_O_hodH8](https://www.youtube.com/watch?v=gs5_O_hodH8)
 
 ![videoplayback](https://github.com/riverallzero/MSAzureThon/assets/93754504/076e5f11-a345-4dfc-817a-49a4cbcd4035)
